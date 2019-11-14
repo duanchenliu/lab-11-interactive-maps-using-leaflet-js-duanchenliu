@@ -19,9 +19,9 @@ Promise.all([
 	// console.log(stationInfo, stationStatus);
 	// console.log(MBTAlines)
 
-	// document.querySelector('#last-updated').textContent = new Date(stationInfo.last_updated*1000).toString();
+	document.querySelector('#last-updated').textContent = new Date(stationInfo.last_updated*1000).toString();
 
-	// document.querySelector('#station-count').textContent = stationInfo.data.stations.length;
+	document.querySelector('#station-count').textContent = stationInfo.data.stations.length;
 
 	
 	
